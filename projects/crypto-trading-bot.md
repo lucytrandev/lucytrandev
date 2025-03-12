@@ -1,32 +1,28 @@
-<h1 className="text-4xl font-bold mb-8">Automated Crypto Trading Bot</h1>
-
-<div className="project-container">
-
-    <div className="role-tech-container">
-        <div className="role-container">
-            <span className="role-label">My Role:</span>
-            <span className="role-text">Python Developer</span>
+<h1 class="text-4xl font-bold mb-8">Automated Crypto Trading Bot</h1>
+<div class="project-container">
+    <div class="role-tech-container">
+        <div class="role-container">
+            <span class="role-label">My Role:</span>
+            <span class="role-text">Python Developer</span>
         </div>
-        <div className="role-container">
-            <span className="role-label">Date:</span>
-            <span className="role-text">11/2024 - 11/2024</span>
+        <div class="role-container">
+            <span class="role-label">Date:</span>
+            <span class="role-text">11/2024 - 11/2024</span>
         </div>
-        <div className="tech-container">
-            <span className="tech-label">Technologies:</span>
-            <div className="tech-list">
-                <span className="tech-badge">Python</span>
-                <span className="tech-badge">MEXC API</span>
-                <span className="tech-badge">OpenAI API</span>
-                <span className="tech-badge">Technical Indicators (e.g., RSI, MACD)</span> <span className="tech-badge">Candlestick Patterns</span>
+        <div class="tech-container">
+            <span class="tech-label">Technologies:</span>
+            <div class="tech-list">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">MEXC API</span>
+                <span class="tech-badge">OpenAI API</span>
+                <span class="tech-badge">Technical Indicators (e.g., RSI, MACD)</span> <span class="tech-badge">Candlestick Patterns</span>
             </div>
         </div>
     </div>
-
-    <p className="project-description">
+    <p class="project-description">
         This project involved developing a Python-based automated trading bot for daily swing trading of Solana (SOL) on the MEXC cryptocurrency exchange.  The goal was to create a bot capable of identifying profitable trading opportunities and executing trades automatically.  Two distinct versions, "Venus" and "Orion," were developed to explore different decision-making approaches.
     </p>
-
-    <h2 className="section-heading">Key Contributions & Impact</h2>
+    <h2 class="section-heading">Key Contributions & Impact</h2>
     <ul>
         <li>
             <strong>Market Data Acquisition and Analysis:</strong>
@@ -44,30 +40,27 @@
             <strong>Automated Trade Execution:</strong>
             Successfully implemented automated trade execution on the MEXC platform, allowing the bot to place buy and sell orders without manual intervention based on the defined strategies.
         </li>
-
     </ul>
-
-    <h2 className="section-heading">Challenges & Solutions</h2>
+    <h2 class="section-heading">Challenges & Solutions</h2>
     <ul>
         <li>
-            <div className="challenge-solution">
+            <div class="challenge-solution">
                 <strong>High Volatility and Order Execution:</strong> The high volatility of the Solana market, particularly during rapid price swings, presented a challenge.  Some orders failed to execute at the intended price due to the speed of market fluctuations.
-                <span className="solution">
+                <span class="solution">
       <strong>Solution:</strong>  Currently refining the bot's algorithms to better account for rapid price changes, potentially incorporating techniques like limit orders with adjusted parameters or more sophisticated order placement strategies.  Exploring faster execution methods and API optimization.
     </span>
             </div>
         </li>
         <li>
-            <div className="challenge-solution">
+            <div class="challenge-solution">
                 <strong>API Integration and Rate Limits:</strong> Interacting with both the MEXC API (for market data and trading) and the OpenAI API required careful handling of API rate limits and potential connection issues.
-                <span className="solution">
+                <span class="solution">
               <strong>Solution:</strong> Implemented robust error handling and retry mechanisms to manage API rate limits and ensure data consistency.  Optimized API calls to minimize latency and maximize efficiency.
             </span>
             </div>
         </li>
     </ul>
-
-    <h2 className="section-heading">Lessons Learned</h2>
+    <h2 class="section-heading">Lessons Learned</h2>
     <ul>
         <li>
             <strong>Understanding of Cryptocurrency Market Dynamics:</strong> Gained a deeper understanding of the intricacies of the cryptocurrency market, including volatility, liquidity, and the impact of various factors on price movements.
@@ -85,5 +78,4 @@
             <strong>Exploration of AI in Trading:</strong> Gained initial experience in leveraging AI for financial decision-making, opening avenues for further exploration of AI-powered trading strategies.
         </li>
     </ul>
-
 </div>

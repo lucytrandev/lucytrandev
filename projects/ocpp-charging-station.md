@@ -1,40 +1,36 @@
-<h1 className="text-4xl font-bold mb-8">NTT DATA - Charging Station Management System</h1>
-
-<div className="project-container">
-
-    <div className="role-tech-container">
-        <div className="role-container">
-            <span className="role-label">My Role:</span>
-            <span className="role-text">Software Engineer (Java, Angular)</span>
+<h1 class="text-4xl font-bold mb-8">NTT DATA - Charging Station Management System</h1>
+<div class="project-container">
+    <div class="role-tech-container">
+        <div class="role-container">
+            <span class="role-label">My Role:</span>
+            <span class="role-text">Software Engineer (Java, Angular)</span>
         </div>
-        <div className="role-container">
-            <span className="role-label">Date:</span>
-            <span className="role-text">03/2021 - 06/2022</span>
+        <div class="role-container">
+            <span class="role-label">Date:</span>
+            <span class="role-text">03/2021 - 06/2022</span>
         </div>
-        <div className="tech-container">
-            <span className="tech-label">Technologies:</span>
-            <div className="tech-list">
-                <span className="tech-badge">Java</span>
-                <span className="tech-badge">JAX-RS/WS</span>
-                <span className="tech-badge">Hibernate</span>
-                <span className="tech-badge">AngularJS</span>
-                <span className="tech-badge">Kubernetes</span>
-                <span className="tech-badge">Kafka</span>
-                <span className="tech-badge">Elasticsearch</span>
-                <span className="tech-badge">GitLab CI/CD</span>
-                <span className="tech-badge">OCPP</span>
+        <div class="tech-container">
+            <span class="tech-label">Technologies:</span>
+            <div class="tech-list">
+                <span class="tech-badge">Java</span>
+                <span class="tech-badge">JAX-RS/WS</span>
+                <span class="tech-badge">Hibernate</span>
+                <span class="tech-badge">AngularJS</span>
+                <span class="tech-badge">Kubernetes</span>
+                <span class="tech-badge">Kafka</span>
+                <span class="tech-badge">Elasticsearch</span>
+                <span class="tech-badge">GitLab CI/CD</span>
+                <span class="tech-badge">OCPP</span>
             </div>
         </div>
     </div>
-
-    <p className="project-description">
+    <p class="project-description">
         As a Software Engineer at NTT DATA, I contributed to the development and maintenance of a charging station
         management system. My responsibilities spanned both front-end (AngularJS) and back-end (Java, JAX-RS/WS)
         development, including implementing the OCPP protocol, building REST APIs, creating background tasks, and
         writing automated tests.
     </p>
-
-    <h2 className="section-heading">Key Contributions & Impact</h2>
+    <h2 class="section-heading">Key Contributions & Impact</h2>
     <ul>
         <li>
             <strong>OCPP Protocol Implementation:</strong> Researched and implemented the Open Charge Point Protocol
@@ -66,21 +62,19 @@
             alignment.
         </li>
     </ul>
-
-    <h2 className="section-heading">Challenges & Solutions</h2>
+    <h2 class="section-heading">Challenges & Solutions</h2>
     <ul>
         <li>
-            <div className="challenge-solution">
+            <div class="challenge-solution">
                 <strong>Learning and Implementing OCPP:</strong> The OCPP protocol was a new technology for me,
                 requiring significant research and understanding to implement correctly.
-                <span className="solution">
+                <span class="solution">
       <strong>Solution:</strong>  Dedicated time to thoroughly study the OCPP specification and related documentation.  Collaborated with colleagues who had experience with similar protocols to accelerate the learning process.  Utilized online resources and forums to troubleshoot issues and find best practices.
                 </span>
             </div>
         </li>
     </ul>
-
-    <h2 className="section-heading">Lessons Learned</h2>
+    <h2 class="section-heading">Lessons Learned</h2>
     <ul>
         <li>
             <strong>Deep Understanding of OCPP:</strong> Gained in-depth knowledge of the OCPP protocol and its
@@ -95,5 +89,4 @@
             software quality and reducing the risk of regressions.
         </li>
     </ul>
-
 </div>

@@ -1,36 +1,32 @@
-<h1 className="text-4xl font-bold mb-8">Stock Analysis System</h1>
-
-<div className="project-container">
-
-    <div className="role-tech-container">
-        <div className="role-container">
-            <span className="role-label">My Role:</span>
-            <span className="role-text">Python Developer, AI/ML, Web Developer</span>
+<h1 class="text-4xl font-bold mb-8">Stock Analysis System</h1>
+<div class="project-container">
+    <div class="role-tech-container">
+        <div class="role-container">
+            <span class="role-label">My Role:</span>
+            <span class="role-text">Python Developer, AI/ML, Web Developer</span>
         </div>
-        <div className="role-container">
-            <span className="role-label">Date:</span>
-            <span className="role-text">03/2025 - Ongoing</span>
+        <div class="role-container">
+            <span class="role-label">Date:</span>
+            <span class="role-text">03/2025 - Ongoing</span>
         </div>
-        <div className="tech-container">
-            <span className="tech-label">Technologies:</span>
-            <div className="tech-list">
-                <span className="tech-badge">Python</span>
-                <span className="tech-badge">yfinance</span>
-                <span className="tech-badge">Pandas</span>
-                <span className="tech-badge">NumPy</span>
-                <span className="tech-badge">Scikit-learn</span>
-                <span className="tech-badge">SQLite</span>
-                <span className="tech-badge">TA-Lib</span>
-                <span className="tech-badge">UI Framework (Streamlit, Flask/React)</span>
+        <div class="tech-container">
+            <span class="tech-label">Technologies:</span>
+            <div class="tech-list">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">yfinance</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">NumPy</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">TA-Lib</span>
+                <span class="tech-badge">UI Framework (Streamlit, Flask/React)</span>
             </div>
         </div>
     </div>
-
-    <p className="project-description">
+    <p class="project-description">
         This project aims to develop a comprehensive stock analysis system, initially focusing on single-stock technical analysis (Phase 1).  The system is designed to provide insights into stock trends, generate trading signals, assess risk, and ultimately aid in identifying profitable trading opportunities.  The project encompasses data acquisition, processing, technical indicator calculation, AI-powered prediction, and a user interface for visualization and interaction. The long-term vision includes incorporating "Big Player" (BP) activity analysis, market maker (MM) strategies, and portfolio optimization.
     </p>
-
-    <h2 className="section-heading">Key Contributions & Impact (Phase 1 Focus)</h2>
+    <h2 class="section-heading">Key Contributions & Impact (Phase 1 Focus)</h2>
     <ul>
         <li>
             <strong>Data Acquisition and Management:</strong>
@@ -83,33 +79,30 @@
                 <li>Display historical price charts and calculated indicators.</li>
                 <li>Visualize trend analysis and trading signals.</li>
                 <li>Present risk metrics.</li>
-                <li>*(Planned) Display a ranked list of stocks based on analysis.*</li>
+                <li>(Planned) Display a ranked list of stocks based on analysis.</li>
             </ul>
         </li>
-
     </ul>
-
-    <h2 className="section-heading">Challenges & Solutions</h2>
+    <h2 class="section-heading">Challenges & Solutions</h2>
     <ul>
         <li>
-            <div className="challenge-solution">
+            <div class="challenge-solution">
                 <strong>Choosing the Right AI Model and Features:</strong> Selecting the most appropriate AI model architecture and feature set for predicting stock prices required extensive experimentation.
-                <span className="solution">
+                <span class="solution">
       <strong>Solution:</strong> Experimented with various machine learning models (e.g., linear regression, support vector machines, recurrent neural networks) and feature combinations (technical indicators, lagged price data, volume).  Employed techniques like cross-validation and hyperparameter tuning to optimize model performance.
     </span>
             </div>
         </li>
         <li>
-            <div className="challenge-solution">
+            <div class="challenge-solution">
                 <strong>UI Framework Selection and Integration:</strong> Choosing a suitable UI framework that could handle interactive charts, data tables, and real-time updates.
-                <span className="solution">
+                <span class="solution">
                 <strong>Solution:</strong> Evaluated several UI frameworks (e.g., Streamlit, Flask/React, Dash) and selected [Your Chosen Framework] based on its ease of use, flexibility, and ability to integrate with the Python back-end. Developed a modular UI architecture to facilitate future expansion and feature additions.
             </span>
             </div>
         </li>
     </ul>
-
-    <h2 className="section-heading">Lessons Learned</h2>
+    <h2 class="section-heading">Lessons Learned</h2>
     <ul>
         <li>
             <strong>Complexity of Financial Modeling:</strong> Gained a deeper appreciation for the complexities of financial modeling and the challenges of predicting stock prices with high accuracy.
@@ -121,5 +114,4 @@
             <strong>Project Scope Management:</strong>  Recognized the importance of carefully defining project scope and prioritizing features, particularly for a large and ambitious project.
         </li>
     </ul>
-
 </div>
