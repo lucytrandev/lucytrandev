@@ -10,7 +10,7 @@ export default function ServicesSection() {
                         Services
                     </h2>
                     <svg
-                        className="w-6 h-6 text-[#bc644b]"
+                        className="w-6 h-6 text-[#cf5b5a]"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

@@ -2,9 +2,8 @@
 import Link from 'next/link';
 import React from 'react';
 
-import Lottie from "react-lottie-player";
-import headlineAnimation from "@/animations/headlinephoto.json";
 import ServicesSection from "@/components/ServiceSections";
+import Image from "next/image";
 
 function HeadlineSection() {
     return (
@@ -34,13 +33,12 @@ function HeadlineSection() {
                     </div>
                 </div>
 
-                {/* Middle: .lottie Animation */}
                 <div className="lg:w-1/3 hidden lg:block">
-                    <Lottie
-                        loop
-                        play
-                        animationData={headlineAnimation}
-                        style={{ width: "100%", height: "100%" }}
+                    <Image
+                        src="/images/headline-middle.svg"
+                        alt=""
+                        fill
+                        style={{ width: '100%', height: '100%' }}
                     />
                 </div>
                 <ServicesSection />
