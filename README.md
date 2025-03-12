@@ -39,7 +39,7 @@ I bring a comprehensive skillset to every project, covering the full spectrum of
 *   **AI-Generated Anime Videos:** Built a system to automatically create anime-style videos from text descriptions.
 *   **Automated Cryptocurrency Trading Bot:** Created a Python-based trading bot for Solana (SOL) on the MEXC platform.
 *   **Database Monitoring Tools:** Contributed to the development of database monitoring tools for Foglight, integrating with various database technologies on AWS.
-*   **[And More!**  Check out my website for a comprehensive overview of my work. ](Add link to projects section)
+*   **[And More!**  Check out my website for a comprehensive overview of my work. ](https://lucydev.netlify.app/)
 
 **What I Do:**
 
@@ -48,7 +48,7 @@ I bring a comprehensive skillset to every project, covering the full spectrum of
 
 I'm always open to connecting with fellow developers, potential clients, and anyone interested in exploring the possibilities of AI and full-stack development.
 
-*   [**Explore my work and get in touch on my website!**](https://yourwebsite.com)
+*   [**Explore my work and get in touch on my website!**](https://lucydev.netlify.app/)
 *   Connect with me on [LinkedIn](https://www.linkedin.com/in/lucytranai/)
 *   Explore my code on [GitHub](https://github.com/lucytrandev)
 *   Reach out via email: [lucytrancs@gmail.com](mailto:lucytrancs@gmail.com)

@@ -33,12 +33,12 @@ function HeadlineSection() {
                     </div>
                 </div>
 
-                <div className="lg:w-1/3 hidden lg:block">
+                <div className="lg:w-1/3 hidden lg:block relative h-80">
                     <Image
                         src="/images/headline-middle.svg"
                         alt=""
                         fill
-                        style={{ width: '100%', height: '100%' }}
+                        className="pointer-events-none object-contain"
                     />
                 </div>
                 <ServicesSection />
