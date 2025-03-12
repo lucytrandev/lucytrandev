@@ -139,12 +139,10 @@ export default function Home() {
                         <h3 className="text-2xl font-semibold mb-4">Soft Skills</h3>
                         <ul className="list-disc list-inside space-y-2">
                             <li>
-                                <strong>Adaptability & Continuous Learning:</strong> Quick to learn new
-                                technologies and adapt to evolving requirements.
+                                <strong>Adaptability & Continuous Learning:</strong> Quick to learn new technologies and adapt to evolving requirements.
                             </li>
                             <li>
-                                <strong>Problem Solving & Critical Thinking:</strong> Skilled at analyzing complex
-                                problems and finding effective solutions.
+                                <strong>Problem Solving & Critical Thinking:</strong> Skilled at analyzing complex problems and finding effective solutions.
                             </li>
                             <li>
                                 <strong>Time Management & Organization:</strong> Efficient in prioritizing tasks

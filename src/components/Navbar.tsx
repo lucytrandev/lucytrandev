@@ -15,14 +15,6 @@ export default function Navbar() {
     setActiveRoute(window.location.pathname);
   }, []);
 
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    localStorage.setItem("theme", newTheme);
-    document.documentElement.setAttribute("data-theme", newTheme);
-    window.dispatchEvent(new Event('theme-change'));
-  };
-
   const navLinks = [
     { href: "/", label: "About Me" },
     { href: "/projects", label: "Experiences" },
@@ -55,13 +47,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <button
-            onClick={toggleTheme}
-            className="p-2 rounded-full hover:bg-foreground/10 transition-colors"
-            aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
-          >
-            {theme === "light" ? "🌙" : "☀️"}
-          </button>
         </div>
       </div>
     </nav>

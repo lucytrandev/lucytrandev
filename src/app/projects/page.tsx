@@ -11,7 +11,7 @@ export default function Experiences() {
                 title: "Stock Analysis System",
                 description: "Developed a stock analysis system as a freelance project on Upwork, providing tools and insights for stock market data.",
                 imageUrl: "/images/stock-analysis.jpg",
-                slug: "stock-analysis-system",
+                slug: "stock-analysis",
                 tags: ["Stock Market", "Data Analysis", "Python"],
                 brandLogoUrl: "/icons/upwork-logo.svg",
                 filters: ["AI/Machine Learning", "Full-stack Web App", "Finance"]
