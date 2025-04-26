@@ -13,6 +13,7 @@ venv/
 # next.js
 /.next/
 /out/
+/.idea/
 
 # production
 /build
@@ -38,5 +39,3 @@ env.example
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-./.idea
