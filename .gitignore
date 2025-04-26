@@ -38,3 +38,5 @@ env.example
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+./.idea

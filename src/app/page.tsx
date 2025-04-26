@@ -86,6 +86,28 @@ const skillCategories: SkillCategory[] = [
         ]
     },
     {
+        category: "Trading Platforms & Automation",
+        skills: [
+            {name: "TradingView / Pine Script", icon: "/icons/tradingview.png"},
+            {name: "MetaTrader (MT4/MT5)", icon: "/icons/metatrader.png"},
+            {name: "NinjaTrader", icon: "/icons/ninjatrader.jpeg"},
+            {name: "Trading Automation", icon: "/icons/automation.png"},
+            {name: "Algorithm Development", icon: "/icons/algorithm.svg"},
+            {name: "Bot Development", icon: "/icons/bot.svg"}
+            // Add others like cTrader, AmiBroker if applicable
+        ]
+    },
+    {
+        category: "Trading Strategies & Quantitative Skills",
+        skills: [
+            {name: "Trading Strategy Dev", icon: "/icons/strategy.png"},
+            {name: "Technical Analysis", icon: "/icons/technical_analysis.jpg"},
+            {name: "Quantitative Finance", icon: "/icons/quantitative.png"},
+            {name: "Risk Management", icon: "/icons/risk.jpg"},
+            {name: "Backtesting", icon: "/icons/backtesting.png"}
+        ]
+    },
+    {
         category: "UI/UX",
         skills: [
             {name: "Responsive Design", icon: "/icons/responsivedesign.svg"},
