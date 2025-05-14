@@ -8,13 +8,22 @@ export default function Experiences() {
     const experiences = useMemo(
         () => [
             {
-                title: "Binance Trading Bot Platform with Blockly Interface", // Or your other preferred specific title
+                title: "Binance Trading Bot Platform with Blockly Integration", // Or your other preferred specific title
                 description: "Developed a full-stack platform enabling users to create, manage, and run automated trading strategies on Binance.",
-                imageUrl: "/images/binance-blockly-platform.jpg", // Consider renaming your image to match
+                imageUrl: "/images/binance-blockly-platform.png", // Consider renaming your image to match
                 slug: "binance-blockly-trading-platform", // You might want to update the slug to be more specific too
                 tags: ["Python", "FastAPI", "React", "TypeScript", "Blockly", "WebSockets", "PostgreSQL", "Trading Bot", "Full-stack", "Binance API", "Futures Trading"],
                 brandLogoUrl: "/icons/upwork-logo.svg",
                 filters: ["Full-stack Web App", "Finance", "Platform Development"] // Removed "AI/Machine Learning" unless explicitly part of this project's core.
+            },
+            {
+                title: "Refactored Bybit Trading Bot with Real-Time Data Processing",
+                description: "Led the architectural redesign and backend refactoring of a Bybit trading bot, focusing on reliability, persistent state, and low-latency execution.",
+                imageUrl: "/images/refactored-bybit-bot.png", // You'll need to add an appropriate image
+                slug: "refactored-bybit-trading-bot",
+                tags: ["Python", "FastAPI", "PostgreSQL", "WebSockets", "Bybit API", "ccxt", "Trading Bot", "System Architecture", "React"],
+                brandLogoUrl: "/icons/upwork-logo.svg", // Add a path if there's a specific logo
+                filters: ["Full-stack Web App", "Finance", "Platform Development", "System Architecture"]
             },
             {
                 title: "Stock Analysis System",
