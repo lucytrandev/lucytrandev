@@ -26,13 +26,13 @@ export default function Experiences() {
                 filters: ["Full-stack Web App", "Finance", "Platform Development", "System Architecture"]
             },
             {
-                title: "Stock Analysis System",
-                description: "Developed a stock analysis system as a freelance project on Upwork, providing tools and insights for stock market data.",
+                title: "Advanced Stock Analysis & AI Trading System",
+                description: "Developed a comprehensive stock analysis system featuring AI-driven, Whales Track activity detection with news sentiment analysis, and algorithmic trading signal generation.",
                 imageUrl: "/images/stock-analysis.jpg",
                 slug: "stock-analysis",
-                tags: ["Stock Market", "Data Analysis", "Python"],
+                tags: ["Python", "AI/ML", "Transformers", "Pandas", "TA-Lib", "NLP", "LLM", "Algorithmic Trading", "Stock Market", "TensorFlow", "Streamlit"],
                 brandLogoUrl: "/icons/upwork-logo.svg",
-                filters: ["AI/Machine Learning", "Full-stack Web App", "Finance"]
+                filters: ["AI/Machine Learning", "Full-stack Web App", "Finance", "Data Science"]
             },
             {
                 title: "Automated Crypto Trading Bot",
