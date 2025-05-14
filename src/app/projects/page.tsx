@@ -8,6 +8,15 @@ export default function Experiences() {
     const experiences = useMemo(
         () => [
             {
+                title: "Binance Trading Bot Platform with Blockly Interface", // Or your other preferred specific title
+                description: "Developed a full-stack platform enabling users to create, manage, and run automated trading strategies on Binance.",
+                imageUrl: "/images/binance-blockly-platform.jpg", // Consider renaming your image to match
+                slug: "binance-blockly-trading-platform", // You might want to update the slug to be more specific too
+                tags: ["Python", "FastAPI", "React", "TypeScript", "Blockly", "WebSockets", "PostgreSQL", "Trading Bot", "Full-stack", "Binance API", "Futures Trading"],
+                brandLogoUrl: "/icons/upwork-logo.svg",
+                filters: ["Full-stack Web App", "Finance", "Platform Development"] // Removed "AI/Machine Learning" unless explicitly part of this project's core.
+            },
+            {
                 title: "Stock Analysis System",
                 description: "Developed a stock analysis system as a freelance project on Upwork, providing tools and insights for stock market data.",
                 imageUrl: "/images/stock-analysis.jpg",
